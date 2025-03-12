@@ -90,7 +90,7 @@ export function fetchDatesTab(courseId) {
 }
 
 export function fetchProgressTab(courseId, targetUserId) {
-  return fetchTab(courseId, 'progress', getProgressTabData, parseInt(targetUserId, 10) || targetUserId);
+  return fetchTab(courseId, 'progreso', getProgressTabData, parseInt(targetUserId, 10) || targetUserId);
 }
 
 export function fetchOutlineTab(courseId) {
